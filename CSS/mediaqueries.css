@@ -50,6 +50,15 @@
         justify-content: center;
         width: 100%;
     }
+    
+       .box-wrapper .box p {
+        width: 60%;
+        text-align: center;
+    }
+
+    .box-wrapper .box h3 {
+        text-align: center;
+    }
 
 }
 
