@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    #menu-hamburger {
+        display: block;
+    }
+
+    header {
+        left: -120%;
+    }
+    
+    header.active {
+        left: 0%;
+    }
+
+    .box-wrapper1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .experience .box-wrapper .box {
+        padding-right: 0;
+    }
+
+    .box-wrapper1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+     }
+ 
+     .services-icon {
+        font-size: 1.5rem;
+     }
+
+     .contact-container {
+        grid-template-columns: 360px;
+        row-gap: 3rem;
+     }
+
+     .contact-container {
+        grid-template-columns:300px;
+     }
+
+}
+
+@media screen and (max-width:350px) {
+    .services-container {
+        grid-template-columns:max-content;
+    }
+
+    .services-content {
+        padding-right:3.5rem;
+    }
+
+    .contact-container {
+        grid-template-columns:1fr;
+    }
+
+  
+}
