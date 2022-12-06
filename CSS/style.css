@@ -707,7 +707,21 @@ header .social-links a:hover {
     height: calc(100% + 30px);
 }
 
+/* Strengths */
+.box-wrapper .box h3 {
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.2rem;
+    max-width: 768px;
+}
 
+.box-wrapper .box p {
+    font-size: 1.7rem;
+    padding-top: 2.2rem;
+    line-height: 2.2rem;
+}
 
 
 /* Contacts */
